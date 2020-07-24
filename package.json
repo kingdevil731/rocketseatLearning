@@ -1,0 +1,17 @@
+{
+    "name": "exercicios",
+    "version": "1.0.0",
+    "description": "exercicios repo",
+    "main": "index.js",
+    "author": "ruben forner",
+    "license": "MIT",
+    "dependencies": {
+        "@babel/cli": "^7.10.5",
+        "@babel/core": "^7.10.5",
+        "@babel/plugin-proposal-object-rest-spread": "^7.10.4",
+        "@babel/preset-env": "^7.10.4"
+    },
+    "scripts": {
+        "devM": "babel ./first.js ./second.js ./third.js ./forth.js ./fifth.js ./sixth.js ./seventh.js -o ./bundle.js -w"
+    }
+}
